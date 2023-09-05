@@ -1,37 +1,36 @@
 import UiLoading from "./UiLoading";
 
 export default {
-  title: 'Ui-Kit/UiButton',
+  title: "Ui-Kit/UiButton",
   component: UiLoading,
-}
+};
 
-
-const Template = args => <UiLoading {...args} />
+const Template = (args) => <UiLoading {...args} />;
 
 const props = {
-  theme: 'black',
+  theme: "black",
   isShadow: false,
-  classes: ''
-}
+  classes: "",
+};
 
-export const White = Template.bind({})
+export const White = Template.bind({});
 
 White.args = {
   ...props,
   isShadow: true,
-  theme: 'white'
-}
+  theme: "white",
+};
 
-export const Black = Template.bind({})
+export const Black = Template.bind({});
 
 Black.args = {
   ...props,
-  theme: 'black'
-}
+  theme: "black",
+};
 
-export const Blue = Template.bind({})
+export const Blue = Template.bind({});
 
 Blue.args = {
   ...props,
-  theme: 'blue'
-}
+  theme: "blue",
+};

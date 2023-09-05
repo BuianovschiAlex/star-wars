@@ -7,8 +7,6 @@
 //   "https://swapi.dev/api/films/6/")
 // ];
 
-
-
 // name: "R2-D2";
 // birth_year: "33BBY";
 // gender: "n/a";

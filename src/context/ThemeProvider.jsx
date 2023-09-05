@@ -1,25 +1,25 @@
 import React, { useContext, useState } from "react";
 import { changeCssVariables } from "../services/changeCssVariables";
 
-export const THEME_LIGHT = 'light'
-export const THEME_DARK = 'dark'
-export const THEME_NEUTRAL = 'neutral'
+export const THEME_LIGHT = "light";
+export const THEME_DARK = "dark";
+export const THEME_NEUTRAL = "neutral";
 
 const ThemeContext = React.createContext();
 
 export const ThemeProvider = ({ children, ...props }) => {
-  const [theme, setTheme] = useState(null)
+  const [theme, setTheme] = useState(null);
 
-  const change = name => {
-    changeCssVariables(name)
-    setTheme(name)
-  }
+  const change = (name) => {
+    changeCssVariables(name);
+    setTheme(name);
+  };
 
   return (
     <ThemeContext.Provider
       value={{
         theme,
-        change
+        change,
       }}
       {...props}
     >
@@ -30,4 +30,4 @@ export const ThemeProvider = ({ children, ...props }) => {
 
 export default ThemeProvider;
 
-export const useTheme = () => useContext(ThemeContext)
+export const useTheme = () => useContext(ThemeContext);

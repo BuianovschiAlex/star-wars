@@ -6,14 +6,13 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 const Favorite = () => {
-  const [count, setCount] = useState(null)
-  const storeDate = useSelector(state => state.favoriteReducer)
+  const [count, setCount] = useState(null);
+  const storeDate = useSelector((state) => state.favoriteReducer);
 
   useEffect(() => {
     const length = Object.keys(storeDate).length;
-    length.toString().length > 2 ? setCount('...') : setCount(length)
-  })
-
+    length.toString().length > 2 ? setCount("...") : setCount(length);
+  });
 
   return (
     <>

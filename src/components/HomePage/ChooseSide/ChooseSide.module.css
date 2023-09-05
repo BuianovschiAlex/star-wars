@@ -5,8 +5,8 @@
   --color-dark: #d82228;
   --color-neutral: #ffff00;
 
-  --color-shadow-light: rgba(41, 229, 45, .4);
-  --color-shadow-dark: rgba(216, 34, 40, .4);
+  --color-shadow-light: rgba(41, 229, 45, 0.4);
+  --color-shadow-dark: rgba(216, 34, 40, 0.4);
   --color-shadow-neutral: rgba(224, 224, 81, 0.4);
 }
 

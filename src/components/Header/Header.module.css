@@ -25,12 +25,12 @@
   text-decoration: none;
   font-weight: var(--font-bold);
   text-shadow: var(--text-shadow-yellow);
-  transition: var(--transition)
+  transition: var(--transition);
 }
 
 .list__container :global(a.active) {
-  border: 2px solid var( --color-violet);
-  color: var( --color-violet);
+  border: 2px solid var(--color-violet);
+  color: var(--color-violet);
   text-shadow: none;
 }
 
@@ -40,4 +40,4 @@
   margin-right: var(--spacing-large);
   object-fit: cover;
   object-position: center center;
-} 
+}

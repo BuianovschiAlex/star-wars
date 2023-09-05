@@ -6,15 +6,15 @@ export default {
   component: UiVideo,
 };
 
-const Template = (args) => <UiVideo {...args}/>
+const Template = (args) => <UiVideo {...args} />;
 
 const props = {
   src: video,
-  classes: '',
+  classes: "",
   playbackRate: 1.0,
-}
+};
 
 export const Default = Template.bind({});
 Default.args = {
   ...props,
-}
+};

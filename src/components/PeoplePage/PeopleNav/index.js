@@ -1,1 +1,1 @@
-export { default } from './PeopleNav'
+export { default } from "./PeopleNav";

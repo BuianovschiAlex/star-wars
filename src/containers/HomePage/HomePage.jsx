@@ -1,6 +1,6 @@
-import ChooseSide from '../../components/HomePage/ChooseSide/ChooseSide';
+import ChooseSide from "../../components/HomePage/ChooseSide/ChooseSide";
 
-import styles from './HomePage.module.css';
+import styles from "./HomePage.module.css";
 
 const HomePage = () => {
   return (
@@ -8,8 +8,7 @@ const HomePage = () => {
       <h1 className="header__text">Home Page</h1>
       {<ChooseSide />}
     </>
-  )
-}
+  );
+};
 
-
-export default HomePage
+export default HomePage;

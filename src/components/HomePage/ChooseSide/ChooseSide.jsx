@@ -16,7 +16,10 @@ import styles from "./ChooseSide.module.css";
 const ChooseSideItem = ({ theme, text, img, classes }) => {
   const isTheme = useTheme();
   return (
-    <div className={cn(styles.item, classes)} onClick={() => isTheme.change(theme)}>
+    <div
+      className={cn(styles.item, classes)}
+      onClick={() => isTheme.change(theme)}
+    >
       <div className={styles.item__header}>{text}</div>
       <img className={styles.item__img} src={img} alt={text}></img>
     </div>
@@ -36,33 +39,33 @@ const ChooseSide = () => {
       theme: THEME_LIGHT,
       text: "Light Side",
       img: imgLight,
-      classes: styles.item__light  
+      classes: styles.item__light,
     },
     {
       theme: THEME_DARK,
-        text: "Dark Side",
-        img: imgDark,
-        classes: styles.item__dark 
+      text: "Dark Side",
+      img: imgDark,
+      classes: styles.item__dark,
     },
     {
       theme: THEME_NEUTRAL,
-        text: "I'm Han Solo",
-        img: imgNeutral,
-        classes: styles.item__neutral  
-    }
-  ]
+      text: "I'm Han Solo",
+      img: imgNeutral,
+      classes: styles.item__neutral,
+    },
+  ];
 
   return (
     <div className={styles.container}>
       {elements.map((el, index) => (
-      <ChooseSideItem 
-         key={index}
-         theme={el.theme} 
-         text={el.text} 
-         img={el.img} 
-         classes={el.classes}
-     />
-    ))}
+        <ChooseSideItem
+          key={index}
+          theme={el.theme}
+          text={el.text}
+          img={el.img}
+          classes={el.classes}
+        />
+      ))}
     </div>
   );
 };

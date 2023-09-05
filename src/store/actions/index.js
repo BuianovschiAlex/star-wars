@@ -1,11 +1,14 @@
-import { ADD_PERSON_TO_FAVORITE, REMOVE_PERSON_TO_FAVORITE } from "../constans/actionTypes"
+import {
+  ADD_PERSON_TO_FAVORITE,
+  REMOVE_PERSON_TO_FAVORITE,
+} from "../constans/actionTypes";
 
-export const setPersonToFavorite = person => ({
+export const setPersonToFavorite = (person) => ({
   type: ADD_PERSON_TO_FAVORITE,
-  payload: person
-})
+  payload: person,
+});
 
-export const removePersonToFavorite = personId => ({
+export const removePersonToFavorite = (personId) => ({
   type: REMOVE_PERSON_TO_FAVORITE,
-  payload: personId
-})
+  payload: personId,
+});

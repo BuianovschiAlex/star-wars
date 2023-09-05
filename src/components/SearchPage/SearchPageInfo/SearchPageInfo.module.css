@@ -6,7 +6,6 @@
 }
 
 .list__item {
-
 }
 .list__item a {
   display: inline-flex;
@@ -14,7 +13,6 @@
   text-decoration: none;
   text-align: center;
   cursor: pointer;
-  
 }
 
 .person__photo {

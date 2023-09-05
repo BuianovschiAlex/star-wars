@@ -11,10 +11,12 @@
   --font-family-main: sans-serif;
   --font-bold: 600;
 
-  --transition: .4s;
+  --transition: 0.4s;
 }
 
-*, *:after, *::before {
+*,
+*:after,
+*::before {
   box-sizing: border-box;
 }
 

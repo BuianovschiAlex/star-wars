@@ -12,18 +12,14 @@ const PeopleNav = ({ counterPage, getResource, prevPage, nextPage }) => {
   return (
     <div className={styles.container}>
       <Link to={`/people/?page=${counterPage - 1}`} className={styles.buttons}>
-        <UiButton 
-          text='Previous'
+        <UiButton
+          text="Previous"
           onClick={handleChangePrev}
           disabled={!prevPage}
         />
       </Link>
       <Link to={`/people/?page=${counterPage + 1}`} className={styles.buttons}>
-        <UiButton 
-          text='Next'
-          onClick={handleChangeNext}
-          disabled={!nextPage}
-        />
+        <UiButton text="Next" onClick={handleChangeNext} disabled={!nextPage} />
       </Link>
     </div>
   );

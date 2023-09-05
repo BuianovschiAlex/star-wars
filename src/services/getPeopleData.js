@@ -19,6 +19,6 @@ export const getPeopleImage = (id) =>
 
 export const getPeoplePageId = (url) => {
   const pos = url.lastIndexOf(SWAPI_PARAM_PAGE);
-  const id = url.slice(pos+SWAPI_PARAM_PAGE.length, url.length);
-  return Number(id)  
+  const id = url.slice(pos + SWAPI_PARAM_PAGE.length, url.length);
+  return Number(id);
 };

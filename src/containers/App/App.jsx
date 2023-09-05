@@ -23,9 +23,9 @@ const App = () => {
             <Route path="/people/:id" exact Component={PersonPage} />
             <Route path="/not-found" exact Component={NotFoundPage} />
             <Route path="*" Component={NotFoundPage} />
-            <Route path="/favorites" Component={FavoritePage}/>
-            <Route path="/search" Component={SearchPage}/>
-            <Route path="/fail" Component={ErrorMessage}/>
+            <Route path="/favorites" Component={FavoritePage} />
+            <Route path="/search" Component={SearchPage} />
+            <Route path="/fail" Component={ErrorMessage} />
           </Routes>
         </div>
       </Router>

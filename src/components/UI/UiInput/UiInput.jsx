@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import cn from "classnames";
-import imgCancel from './img/cancel.svg'
-import '../index.css'
+import imgCancel from "./img/cancel.svg";
+import "../index.css";
 import styles from "./UiInput.module.css";
 
 const UiInput = ({ value, handleInputChange, classes, placeholder }) => (
@@ -13,15 +13,14 @@ const UiInput = ({ value, handleInputChange, classes, placeholder }) => (
       placeholder={placeholder}
       className={styles.input}
     />
-    <img 
-      onClick={() => value && handleInputChange('')}
+    <img
+      onClick={() => value && handleInputChange("")}
       src={imgCancel}
       className={cn(styles.clear, !value && styles.clear__disabled)}
       alt="Clear"
     />
   </div>
-
-)
+);
 
 UiInput.propTypes = {
   value: PropTypes.string,

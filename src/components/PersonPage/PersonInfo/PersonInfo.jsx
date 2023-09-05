@@ -1,7 +1,7 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import styles from "./PersonInfo.module.css";
 
-const PersonInfo = ({ personInfo}) => {
+const PersonInfo = ({ personInfo }) => {
   return (
     <>
       <div className={styles.wrapper}>
@@ -23,7 +23,7 @@ const PersonInfo = ({ personInfo}) => {
 };
 
 PersonInfo.propTypes = {
-  personInfo: PropTypes.array
-}
+  personInfo: PropTypes.array,
+};
 
 export default PersonInfo;

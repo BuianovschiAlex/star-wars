@@ -1,3 +1,3 @@
 # Star Wars
 
-## Demo: Main test 'TEST'
+## Demo: test

@@ -3,6 +3,7 @@ import HomePage from "../HomePage/HomePage";
 import PersonPage from "../PersonPage/PersonPage";
 import FavoritePage from "../FavoritePage/FavoritePage";
 import SearchPage from "../SearchPage/SearchPage";
+import { REPO_NAME } from '../../constants/repo'
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "../../components/Header/Header";
@@ -13,7 +14,7 @@ import styles from "./App.module.css";
 const App = () => {
   return (
     <>
-      <Router>
+      <Router basename={`/${REPO_NAME}/`}>
         <div className={styles.wrapper}>
           <Header />
 

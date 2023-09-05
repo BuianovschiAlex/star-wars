@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/star-wars/static/css/main.49646738.css",
-    "main.js": "/star-wars/static/js/main.2eba9893.js",
+    "main.js": "/star-wars/static/js/main.ecca692b.js",
     "static/css/890.b8269340.chunk.css": "/star-wars/static/css/890.b8269340.chunk.css",
-    "static/js/890.35f970e0.chunk.js": "/star-wars/static/js/890.35f970e0.chunk.js",
+    "static/js/890.eacc22cb.chunk.js": "/star-wars/static/js/890.eacc22cb.chunk.js",
     "static/media/bg.jpg": "/star-wars/static/media/bg.29b25be31315dad3ce4e.jpg",
     "static/media/neutral.jpg": "/star-wars/static/media/neutral.c1d0a8d1869b3fbdb9ab.jpg",
     "static/media/han-solo.mp4": "/star-wars/static/media/han-solo.db435084c403f6b37d4d.mp4",
@@ -23,12 +23,12 @@
     "static/media/bookmark.svg": "/star-wars/static/media/bookmark.f32ef6964ebba42e3cb1f6180e8c56b5.svg",
     "index.html": "/star-wars/index.html",
     "main.49646738.css.map": "/star-wars/static/css/main.49646738.css.map",
-    "main.2eba9893.js.map": "/star-wars/static/js/main.2eba9893.js.map",
+    "main.ecca692b.js.map": "/star-wars/static/js/main.ecca692b.js.map",
     "890.b8269340.chunk.css.map": "/star-wars/static/css/890.b8269340.chunk.css.map",
-    "890.35f970e0.chunk.js.map": "/star-wars/static/js/890.35f970e0.chunk.js.map"
+    "890.eacc22cb.chunk.js.map": "/star-wars/static/js/890.eacc22cb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49646738.css",
-    "static/js/main.2eba9893.js"
+    "static/js/main.ecca692b.js"
   ]
 }

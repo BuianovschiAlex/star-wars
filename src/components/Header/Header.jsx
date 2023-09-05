@@ -43,21 +43,17 @@ const Header = () => {
           </NavLink>
         </li>
         <li>
-          {" "}
           <NavLink to="/people/?page=1">People</NavLink>
         </li>
         <li>
-          {" "}
           <NavLink to="/search">Search</NavLink>
         </li>
         <li>
-          {" "}
           <NavLink to="/not-found" exact="true">
             Not Found
           </NavLink>
         </li>
         <li>
-          {" "}
           <NavLink to="/fail" exact="true">
             Fail
           </NavLink>

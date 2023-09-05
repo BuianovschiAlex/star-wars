@@ -1,7 +1,7 @@
 import UiLoading from "./UiLoading";
 
 export default {
-  title: "Ui-Kit/UiButton",
+  title: "Ui-Kit/UiLoading",
   component: UiLoading,
 };
 
